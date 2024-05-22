@@ -1,9 +1,9 @@
 //your JS code here. If required.
-const openModalBtn = document.getElementById('openModalBtn');
+const openModal = document.getElementById('openModal');
 const modal = document.getElementById('modal');
 const closeModalBtn = document.getElementById('closeModalBtn');
 
-openModalBtn.addEventListener('click', function() {
+openModal.addEventListener('click', function() {
     modal.style.display = 'flex';
 })
 
